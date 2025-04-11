@@ -6,7 +6,12 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFX"/>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="resources/" kind="src" path="src"/>
+	<classpathentry kind="src" path="src/resources"/>
 	<classpathentry kind="lib" path="C:/mysql-connector-j-9.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nelsh/OneDrive/Desktop/lib/javax.mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nelsh/OneDrive/Desktop/lib/javax.mail-api-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nelsh/OneDrive/Desktop/lib/jakarta.activation-1.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nelsh/OneDrive/Desktop/lib/jakarta.mail-1.6.7.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
