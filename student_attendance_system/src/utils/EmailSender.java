@@ -7,9 +7,9 @@ import javax.mail.internet.*;
 public class EmailSender {
 
     public static void sendEmail(String to, String subject, String messageBody) {
-        final String username = "student.attendance.track@gmail.com";
-        final String password = "wnrh cnot ayem xgok";
-
+        final String username = "your@example.com";
+        final String password = "yourAppPassword";
+// please change the mail and app password to your original mail and password:)
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
         props.put("mail.smtp.starttls.enable", "true");
